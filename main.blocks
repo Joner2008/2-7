@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="#kb0Oh+Il0}FE4~6q4U4">sprite</variable></variables><block type="device_forever" id="cT98=Ou+cRY:res{$=c:" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="z/BqS*-tfR{TGGe4wUGC"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="+/Ng7MN?5GmzYIm#]Ys}"><field name="gesture">Gesture.Shake</field></block></value><statement name="DO0"><block type="device_show_leds" id="BWo).F42[8L{m^}U0HkF"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id="7Q|Ka#`(S!)33,Mrm)Xq"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="Jr}Av?{tRQ=C{|)gR.yr"><field name="gesture">Gesture.LogoUp</field></block></value><statement name="DO0"><block type="device_show_leds" id="7bgvB]T`.*UOM,vD(Z@1"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . # . .
+        `</field></block></statement><next><block type="controls_if" id="I6Ii.4PGgM[9qA7c*ri~"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="fA^I(.F1$:.T2|3~4|37"><field name="gesture">Gesture.LogoDown</field></block></value><statement name="DO0"><block type="device_show_leds" id="8M}{tceez~z6NEUu-9@,"><field name="LEDS">`
+        . . # . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id="3lbq6V5TW{)h7EQ}URI_"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="c9={Ol8)fSyNB59EJsCH"><field name="gesture">Gesture.TiltRight</field></block></value><statement name="DO0"><block type="device_show_leds" id="DsG{;!!fZ_]!?l.x1B9T"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . # 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id="z^MfSG|.ueiIKqN#r`~t"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="jGFs;(y)QKS$_PaH7mXO"><field name="gesture">Gesture.TiltLeft</field></block></value><statement name="DO0"><block type="device_show_leds" id="Z8=-h0=6^=!8Z)wydBT#"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></next></block></next></block></next></block></next></block></statement></block></xml>
